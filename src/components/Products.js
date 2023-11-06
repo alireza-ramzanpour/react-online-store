@@ -42,6 +42,103 @@ function Products() {
                             </div>
                         </div>
                     </div>
+                    <div className="filteredArea">
+                        <div className="filteredArea-wrapper">
+                            <div className="filter-col">
+                                <ul>
+                                    <li>
+                                        <Link className='filter-links'>Default</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>Popularity</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>Average rating</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>Newness</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>Price: Low to High</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>Price: High to Low</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="filter-col">
+                                <ul>
+                                    <li>
+                                        <Link className='filter-links'>All</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>$0.00 - $50.00</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>$50.00 - $100.00</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>$100.00 - $150.00</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>$150.00 - $200.00</Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>$200.00+</Link>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="filter-col">
+                                <ul>
+                                    <li>
+                                        <Link className='filter-links'>
+                                            <div className='filter-links__color black'></div>
+                                            Black
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>
+                                            <div className='filter-links__color blue'></div>
+                                            Blue
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>
+                                            <div className='filter-links__color grey'></div>
+                                            Grey
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>
+                                            <div className='filter-links__color green'></div>
+                                            Green
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>
+                                            <div className='filter-links__color red'></div>
+                                            Red
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link className='filter-links'>
+                                            <div className='filter-links__color white'></div>
+                                            White
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="filter-col">
+                                <div className='filter-col-wrapper'>
+                                    <div className='filterTag'>Fashion</div>
+                                    <div className='filterTag'>Lifestyle</div>
+                                    <div className='filterTag'>Denim</div>
+                                    <div className='filterTag'>Streetstyle</div>
+                                    <div className='filterTag'>Crafts</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div className="products-wrapper">
                         {
                             kalas.map((kala, index) => (
